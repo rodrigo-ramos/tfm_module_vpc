@@ -1,0 +1,5 @@
+---
+  - hosts: webservers
+    tasks:
+      - name: update operating system packages
+        yum:
